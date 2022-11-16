@@ -15,7 +15,7 @@ function RightTrendingVideo(props) {
                 }</span></div>
                 
             </div>
-            <h5 className="Trending mt-4 mb-8 font-semibold text-center w-11/12 m-auto">Last To Take Hand Off Jet Keeps It!</h5>
+            <h5 className="Trending mt-4 mb-8 font-semibold text-center w-11/12 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
 
         </div>
     )

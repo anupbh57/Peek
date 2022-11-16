@@ -9,9 +9,9 @@ function App() {
         <div className="App">
             <Nav/>
           <div className='flex justify-between'>
-            <Left className="basis-1/4"/> 
-            <Center className="center"/>
-            <Right className="basis-4/12"/> 
+            <Left className="c-left"/> 
+            <Center className="c-center"/>
+            <Right className="c-right"/> 
           </div>
         </div>
     );

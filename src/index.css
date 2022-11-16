@@ -9,9 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: radial-gradient( circle 621px at 25.3% 13.8%,  rgba(255,255,255,1) 0%, rgba(234,236,255,1) 90% );            height: 100vh;  
+  background-image: radial-gradient( circle 621px at 25.3% 13.8%,  rgba(255,255,255,1) 0%, rgba(234,236,255,1) 90% );
+  background-attachment: fixed;
+  height: 100vh;  
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -43,9 +44,25 @@ code {
   border-left: solid 2px #8a62ff;
 
 }
-#center {
-  max-width: 900px;
+.post-card {
+  max-width: 700px;
 }
 #videoImportCard > form > span {
   background-color: rgb(83, 61, 225);
+}
+
+.left {
+  width: fit-content;
+  position: sticky;
+  top: 0;
+}
+
+.right {
+  width: 300px;
+}
+.center {
+  width: 800px;
+}
+#videoImportCard {
+  width: 700px;
 }

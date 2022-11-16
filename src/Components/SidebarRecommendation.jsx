@@ -7,11 +7,11 @@ function SidebarRecommendation(props) {
                 <img src={
                     props.img
                 } width="100px" className='rounded-lg' alt = "Video cover"></img>
-                <div className='sb-r-vr-bottom right-2 flex absolute bottom-1 mr-3' ><img className="right-trending-video-original-user border-2 rounded-tl-xl rounded-bl-xl border-white w-7 h-7"
+                <div className='sb-r-vr-bottom right-2 flex absolute bottom-1 mr-3' ><img className="right-trending-video-original-user border-2  border-r-transparent rounded-tl-xl rounded-bl-xl border-white w-5 h-5 mb-1"
                    src= {
                     props.original
                 } alt = "Original user profile"></img>
-                <img className="right-trending-video-poster-user border-2 rounded-full border-white  w-7 h-7 absolute left-4"
+                <img className="right-trending-video-poster-user border-2 rounded-full border-white  w-5 h-5 absolute left-3 bottom-1"
                    src= {
                     props.poster
                 }alt = "Original poster profile"></img></div>

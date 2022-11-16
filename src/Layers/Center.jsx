@@ -6,9 +6,14 @@ import Original from "../user-2.jpg";
 import PostImage from "../youtube.jpg"
 function Center() {
   return (
-    <div id = "center" className='px-2 w-full mx-auto mt-8'>
+    <div id = "center" className='center px-2 w-full mx-auto mt-8'>
         <VideoImportCard/>
         <PostCard img={PostImage} original={Original} poster={Poster}/>
+        <PostCard img={PostImage} original={Original} poster={Poster}/>
+        <PostCard img={PostImage} original={Original} poster={Poster}/>
+        <PostCard img={PostImage} original={Original} poster={Poster}/>
+        <PostCard img={PostImage} original={Original} poster={Poster}/>
+
     </div>
   )
 }
